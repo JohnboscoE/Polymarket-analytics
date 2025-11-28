@@ -189,7 +189,7 @@ class AnalyticsProvider with ChangeNotifier {
       debugPrint('Trending Markets Network/Decoding or JSON Error: $e');
     }
 
-    /
+
     if (!apiSuccess) {
       debugPrint('--- FALLBACK TO MOCK DATA for Trending Markets ---');
       await Future.delayed(const Duration(milliseconds: 500));
