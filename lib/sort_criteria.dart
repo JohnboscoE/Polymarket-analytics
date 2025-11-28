@@ -1,0 +1,2 @@
+
+enum SortCriteria { resolutionDate, pnlValue }
